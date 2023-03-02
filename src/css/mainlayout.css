@@ -5,6 +5,13 @@ body {
     /* body에 먼저 적용해줘야 한다 (부모 적용 -> 자식 적용) */
 }
 
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Link router 는 a 태그가 기본 스타일이다 */
+
 .vhvw {
     height: 100vh;
     min-height: 100vh;
@@ -42,7 +49,7 @@ body {
 
 .mainlayout-c {
     flex-basis: 0;  /* 아이템의 기본 크기 설정 */
-    flex-grow: 1.5;
+    flex-grow: 1.2;
     border-left: 1px solid lightgray;
     display: flex;
     align-items: center;
@@ -88,6 +95,7 @@ body {
 .a-navi-create {
     margin-top: 40%;
     font-size: 18px;
+    cursor: pointer;
     /* border: 1px solid black; */
 }
 
