@@ -2,6 +2,7 @@ import React from 'react'
 import '../../css/mainlayout.css'
 import BestTopics from './BestTopic'
 import Header from './Header';
+import { Outlet } from 'react-router-dom'
 
 function MainLayout() {
   return (
@@ -11,8 +12,8 @@ function MainLayout() {
             <Header />
         </div>
         <div className='mainlayout-b'>
-            Main
-            {/* <Outlet /> */}
+            {/* Main */}
+            <Outlet />
         </div>
         <div className='mainlayout-c'>
             <BestTopics />

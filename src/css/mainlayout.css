@@ -42,7 +42,7 @@ body {
 
 .mainlayout-c {
     flex-basis: 0;  /* 아이템의 기본 크기 설정 */
-    flex-grow: 1.2;
+    flex-grow: 1.5;
     border-left: 1px solid lightgray;
     display: flex;
     align-items: center;
