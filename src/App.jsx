@@ -5,6 +5,7 @@ import { MainLayout } from './components';
 const App = () => {
   return (
     <IndexRouter />
+    // <MainLayout />
   );
 };
 

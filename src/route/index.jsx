@@ -10,7 +10,7 @@ const IndexRouter = () => {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Main />} />
         <Route path="/topic" element={<Topic />} />
-        <Route path="/notification" element={<Main />} />
+        <Route path="/notification" element={<Topic />} />
       </Route>
     </Routes>
   )

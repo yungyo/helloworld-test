@@ -1,8 +1,8 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom';
 import '../../css/mainlayout.css'
 import BestTopics from './BestTopic'
 import Header from './Header';
-import { Outlet } from 'react-router-dom'
 
 function MainLayout() {
   return (
