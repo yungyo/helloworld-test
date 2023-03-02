@@ -7,7 +7,7 @@ import {MdInsertComment,MdNotifications} from 'react-icons/md';
 function Header() {
   return (
     <div className='a-container'>
-        <div className='a-header'>HelloWorld</div>
+        <Link to="/" className='a-header'>HelloWorld</Link>
         <div className='a-navi'>
             {/* NAVI */}
             <Link to="/" className="a-navi-link">
